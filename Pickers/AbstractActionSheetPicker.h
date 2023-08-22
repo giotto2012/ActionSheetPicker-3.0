@@ -65,6 +65,7 @@ static NSString *const kActionTarget = @"buttonActionTarget";
 @property (nonatomic) UIWindowLevel windowLevel;
 @property(nonatomic, assign) NSInteger tag;
 @property(nonatomic, assign) int borderWidth;
+@property(nonatomic, assign) CGFloat customHeight;
 @property(nonatomic, strong) UIToolbar *toolbar;
 @property(nonatomic, copy) NSString *title;
 @property(nonatomic, strong) UIView *pickerView;
@@ -122,5 +123,6 @@ static NSString *const kActionTarget = @"buttonActionTarget";
 
 // Hide picker programmatically
 - (void)hidePickerWithCancelAction;
+
 
 @end
